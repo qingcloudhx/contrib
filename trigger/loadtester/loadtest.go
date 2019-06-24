@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/project-flogo/core/trigger"
+	"github.com/qingcloudhx/core/trigger"
 )
 
 // Based off github.com/tsliwowicz/go-wrk

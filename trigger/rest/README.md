@@ -8,7 +8,7 @@ This trigger provides your flogo application the ability to start an action via 
 ## Installation
 
 ```bash
-flogo install github.com/project-flogo/contrib/trigger/rest
+flogo install github.com/qingcloudhx/contrib/trigger/rest
 ```
 
 ## Configuration
@@ -56,7 +56,7 @@ Configure the Trigger to handle a POST on /device
   "triggers": [
     {
       "id": "flogo-rest",
-      "ref": "github.com/project-flogo/contrib/trigger/rest",
+      "ref": "github.com/qingcloudhx/contrib/trigger/rest",
       "settings": {
         "port": 8080
       },
@@ -67,7 +67,7 @@ Configure the Trigger to handle a POST on /device
             "path": "/device"
           },
           "action": {
-            "ref": "github.com/project-flogo/flow",
+            "ref": "github.com/qingcloudhx/flow",
             "settings": {
               "flowURI": "res://flow:new_device_flow"
             }
@@ -87,7 +87,7 @@ Configure the Trigger to handle a GET on /device/:id
   "triggers": [
     {
       "id": "flogo-rest",
-      "ref": "github.com/project-flogo/contrib/trigger/rest",
+      "ref": "github.com/qingcloudhx/contrib/trigger/rest",
       "settings": {
         "port": 8080
       },
@@ -98,7 +98,7 @@ Configure the Trigger to handle a GET on /device/:id
             "path": "/device/:id"
           },
           "action": {
-            "ref": "github.com/project-flogo/flow",
+            "ref": "github.com/qingcloudhx/flow",
             "settings": {
               "flowURI": "res://flow:get_device_flow"
             },

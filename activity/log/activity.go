@@ -3,8 +3,8 @@ package log
 import (
 	"fmt"
 
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/data/coerce"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/data/coerce"
 )
 
 func init() {

@@ -10,7 +10,7 @@ This activity allows you to set and get global App attributes.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/activity/appdata
+flogo install github.com/qingcloudhx/contrib/activity/appdata
 ```
 
 ## Configuration
@@ -44,7 +44,7 @@ Get the value of the 'myAttr' attribute:
   "id": "get_app_attr",
   "name": "Get App Attr",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/appdata",
+    "ref": "github.com/qingcloudhx/contrib/activity/appdata",
     "settings": {
       "attribute": "myAttr",
       "operation": "get"
@@ -61,7 +61,7 @@ Update the value of the 'myAttr' attribute to _bar_:
   "id": "set_app_attr",
   "name": "Set App Attr",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/appdata",
+    "ref": "github.com/qingcloudhx/contrib/activity/appdata",
     "settings": {
       "attribute": "myAttr",
       "operation": "set"

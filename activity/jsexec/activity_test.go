@@ -3,11 +3,11 @@ package jsexec
 import (
 	"testing"
 
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/mapper"
-	"github.com/project-flogo/core/data/metadata"
-	logger "github.com/project-flogo/core/support/log"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/data"
+	"github.com/qingcloudhx/core/data/mapper"
+	"github.com/qingcloudhx/core/data/metadata"
+	logger "github.com/qingcloudhx/core/support/log"
 	"github.com/stretchr/testify/assert"
 )
 

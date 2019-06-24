@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/support/test"
-	"github.com/project-flogo/core/trigger"
+	"github.com/qingcloudhx/core/action"
+	"github.com/qingcloudhx/core/support/test"
+	"github.com/qingcloudhx/core/trigger"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -22,7 +22,7 @@ import (
 
 const testConfig string = `{
   "id": "flogo-cli",
-	"ref": "github.com/project-flogo/contrib/trigger/cli",
+	"ref": "github.com/qingcloudhx/contrib/trigger/cli",
 	"settings":{
 		"singleCmd":true
 	},

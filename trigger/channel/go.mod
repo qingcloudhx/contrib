@@ -1,6 +1,6 @@
-module github.com/project-flogo/contrib/trigger/channel
+module github.com/qingcloudhx/contrib/trigger/channel
 
 require (
-	github.com/project-flogo/core v0.9.0
+	github.com/qingcloudhx/core v0.9.0
 	github.com/stretchr/testify v1.3.0
 )

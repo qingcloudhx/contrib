@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/project-flogo/core/support/log"
+	"github.com/qingcloudhx/core/support/log"
 )
 
 const (

@@ -10,7 +10,7 @@ This activity allows you to reply to a trigger invocation and map output values.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/activity/actreturn
+flogo install github.com/qingcloudhx/contrib/activity/actreturn
 ```
 
 ## Configuration
@@ -29,7 +29,7 @@ The below example allows you to configure the activity to reply and set the outp
   "id": "return",
   "name": "Return",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/actreturn",
+    "ref": "github.com/qingcloudhx/contrib/activity/actreturn",
     "settings": {
       "mappings": {
         "Output1":"name",

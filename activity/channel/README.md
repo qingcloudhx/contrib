@@ -12,7 +12,7 @@ essentially an internal communication channel in the engine.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/activity/channel
+flogo install github.com/qingcloudhx/contrib/activity/channel
 ```
 
 ## Configuration

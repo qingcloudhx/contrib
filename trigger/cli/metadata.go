@@ -1,6 +1,6 @@
 package cli
 
-import "github.com/project-flogo/core/data/coerce"
+import "github.com/qingcloudhx/core/data/coerce"
 
 const ovArgs = "args"
 const ovFlags = "flags"

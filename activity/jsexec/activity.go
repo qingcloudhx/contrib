@@ -5,8 +5,8 @@ import (
 	"errors"
 
 	"github.com/dop251/goja"
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/data/metadata"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/data/metadata"
 )
 
 var activityMetadata = activity.ToMetadata(&Settings{}, &Input{}, &Output{})

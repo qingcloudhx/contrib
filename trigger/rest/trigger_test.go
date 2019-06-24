@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/api"
-	"github.com/project-flogo/core/engine"
-	"github.com/project-flogo/core/support"
-	"github.com/project-flogo/core/support/test"
-	"github.com/project-flogo/core/trigger"
+	"github.com/qingcloudhx/core/action"
+	"github.com/qingcloudhx/core/api"
+	"github.com/qingcloudhx/core/engine"
+	"github.com/qingcloudhx/core/support"
+	"github.com/qingcloudhx/core/support/test"
+	"github.com/qingcloudhx/core/trigger"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -28,7 +28,7 @@ func TestTrigger_Register(t *testing.T) {
 
 const testConfig string = `{
 	"id": "trigger-rest",
-	"ref": "github.com/project-flogo/contrib/trigger/rest",
+	"ref": "github.com/qingcloudhx/contrib/trigger/rest",
 	"settings": {
         "port": "8888"
     },

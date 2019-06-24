@@ -1,9 +1,9 @@
 package appdata
 
 import (
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/app"
-	"github.com/project-flogo/core/support/test"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/app"
+	"github.com/qingcloudhx/core/support/test"
 	"testing"
 
 	"github.com/stretchr/testify/assert"

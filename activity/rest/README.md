@@ -10,7 +10,7 @@ This activity allows you to invoke a REST service.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/activity/rest
+flogo install github.com/qingcloudhx/contrib/activity/rest
 ```
 
 ## Configuration
@@ -60,7 +60,7 @@ The below example retrieves a pet with number '1234' from the [swagger petstore]
   "id": "rest_activity",
   "name": "REST Activity",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/rest",
+    "ref": "github.com/qingcloudhx/contrib/activity/rest",
     "settings": {
       "method": "GET",
       "uri": "http://petstore.swagger.io/v2/pet/1234"
@@ -77,7 +77,7 @@ The below example is the same as above, it retrieves a pet with number '1234' fr
   "id": "rest_activity",
   "name": "REST Activity",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/rest",
+    "ref": "github.com/qingcloudhx/contrib/activity/rest",
     "settings": {
       "method": "GET",
       "uri": "http://petstore.swagger.io/v2/pet/:id"

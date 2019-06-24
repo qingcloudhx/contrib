@@ -3,11 +3,11 @@ This recipe is a gateway which runs some javascript.
 
 ## Installation
 * Install [Go](https://golang.org/)
-* Install the Flogo [CLI](https://github.com/project-flogo/cli)
+* Install the Flogo [CLI](https://github.com/qingcloudhx/cli)
 
 ## Setup
 ```bash
-git clone https://github.com/project-flogo/jsexec
+git clone https://github.com/qingcloudhx/jsexec
 cd jsexec/examples/microgateway/json
 ```
 

@@ -9,7 +9,7 @@ The `jsexec` activity evaluates a javascript `script` along with provided `param
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/activity/jsexec
+flogo install github.com/qingcloudhx/contrib/activity/jsexec
 ```
 
 ## Configuration
@@ -42,7 +42,7 @@ A sample `service` definition is:
 {
   "name": "JSCalc",
   "description": "Make calls to a JS calculator",
-  "ref": "github.com/project-flogo/jsexec",
+  "ref": "github.com/qingcloudhx/jsexec",
   "settings": {
     "script": "result.total = parameters.num * 2;"
   }

@@ -4,15 +4,15 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/project-flogo/core/action"
-	"github.com/project-flogo/core/support/test"
-	"github.com/project-flogo/core/trigger"
+	"github.com/qingcloudhx/core/action"
+	"github.com/qingcloudhx/core/support/test"
+	"github.com/qingcloudhx/core/trigger"
 	"github.com/stretchr/testify/assert"
 )
 
 const testConfig string = `{
 	"id": "flogo-timer",
-	"ref": "github.com/project-flogo/contrib/trigger/kafka",
+	"ref": "github.com/qingcloudhx/contrib/trigger/kafka",
 	"settings": {
 	  "brokerUrls": "localhost:9092"
 	},

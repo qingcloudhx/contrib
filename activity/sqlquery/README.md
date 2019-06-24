@@ -10,7 +10,7 @@ This activity provides your flogo application execute database queries.
 ## Installation
 
 ```bash
-flogo install github.com/project-flogo/activity/sqlquery
+flogo install github.com/qingcloudhx/activity/sqlquery
 ```
 
 ## Configuration
@@ -48,7 +48,7 @@ the app imports section.  See [github.com/go-sql-driver/mysql](https://github.co
   "id": "dbquery",
   "name": "DbQuery",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/sqlquery",
+    "ref": "github.com/qingcloudhx/contrib/activity/sqlquery",
     "settings": {
       "dbType": "mysql",
       "driverName": "mysql",
@@ -66,7 +66,7 @@ Query with parameters.  Parameters are referenced using ':', e.g. `:id`, regardl
   "id": "named_dbquery",
   "name": "Named DbQuery",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/sqlquery",
+    "ref": "github.com/qingcloudhx/contrib/activity/sqlquery",
     "settings": {
       "dbType": "mysql",
       "driverName": "mysql",

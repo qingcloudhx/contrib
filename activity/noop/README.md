@@ -10,7 +10,7 @@ This activity is a simple No-Op that can be used for testing.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/activity/noop
+flogo install github.com/qingcloudhx/contrib/activity/noop
 ```
 
 ## Examples
@@ -21,7 +21,7 @@ Configuration of a No-Op activity
   "id": "noop",
   "name": "NoOp",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/noop"
+    "ref": "github.com/qingcloudhx/contrib/activity/noop"
   }
 }
 ```

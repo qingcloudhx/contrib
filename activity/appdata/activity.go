@@ -1,11 +1,11 @@
 package appdata
 
 import (
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/app"
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/coerce"
-	"github.com/project-flogo/core/data/metadata"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/app"
+	"github.com/qingcloudhx/core/data"
+	"github.com/qingcloudhx/core/data/coerce"
+	"github.com/qingcloudhx/core/data/metadata"
 )
 
 const (

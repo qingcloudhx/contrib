@@ -8,7 +8,7 @@ This trigger provides your flogo application the ability to schedule an action
 ## Installation
 
 ```bash
-flogo install github.com/project-flogo/contrib/trigger/timer
+flogo install github.com/qingcloudhx/contrib/trigger/timer
 ```
 
 ## Configuration
@@ -32,7 +32,7 @@ Configure the Trigger to run a flow immediately
   "triggers": [
     {
       "id": "flogo-timer",
-      "ref": "github.com/project-flogo/contrib/trigger/timer",
+      "ref": "github.com/qingcloudhx/contrib/trigger/timer",
       "handlers": [
         {
           "action": {
@@ -56,7 +56,7 @@ Configure the Trigger to run a flow once with a delay of one minute.  "startDela
   "triggers": [
     {
       "id": "flogo-timer",
-      "ref": "github.com/project-flogo/contrib/trigger/timer",
+      "ref": "github.com/qingcloudhx/contrib/trigger/timer",
       "handlers": [
         {
           "settings": {
@@ -83,14 +83,14 @@ Configure the Trigger to run a flow repeating every 10 minutes. "repeatInterval"
   "triggers": [
     {
       "id": "flogo-timer",
-      "ref": "github.com/project-flogo/contrib/trigger/timer",
+      "ref": "github.com/qingcloudhx/contrib/trigger/timer",
       "handlers": [
         {
           "settings": {
             "repeatInterval": "10m"
           },
           "action": {
-            "ref": "github.com/project-flogo/flow",
+            "ref": "github.com/qingcloudhx/flow",
             "settings": {
               "flowURI": "res://flow:myflow"
             }
@@ -110,7 +110,7 @@ Configure the Trigger to run a flow every minute, with a delayed start of 10 min
   "triggers": [
     {
       "id": "flogo-timer",
-      "ref": "github.com/project-flogo/contrib/trigger/timer",
+      "ref": "github.com/qingcloudhx/contrib/trigger/timer",
       "handlers": [
         {
           "settings": {
@@ -118,7 +118,7 @@ Configure the Trigger to run a flow every minute, with a delayed start of 10 min
             "startDelay": "10m30s"
           },
           "action": {
-            "ref": "github.com/project-flogo/flow",
+            "ref": "github.com/qingcloudhx/flow",
             "settings": {
               "flowURI": "res://flow:myflow"
             }

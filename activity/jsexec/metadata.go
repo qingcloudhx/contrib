@@ -1,7 +1,7 @@
 package jsexec
 
 import (
-	"github.com/project-flogo/core/data/coerce"
+	"github.com/qingcloudhx/core/data/coerce"
 )
 
 // Settings are the jsexec settings

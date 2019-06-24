@@ -11,7 +11,7 @@ This activity allows you to cause an explicit error in the flow (throw an error)
 
 ### Flogo CLI
 ```bash
-flogo install  github.com/project-flogo/contrib/activity/error
+flogo install  github.com/qingcloudhx/contrib/activity/error
 ```
 
 ## Configuration
@@ -30,7 +30,7 @@ The below example throws a simple error with a message:
   "id": "throw_error",
   "name": "Throw Error",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/error",
+    "ref": "github.com/qingcloudhx/contrib/activity/error",
     "input": {
       "message": "Unexpected Threshold Value"
     }

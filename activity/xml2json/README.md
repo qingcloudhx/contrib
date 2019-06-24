@@ -10,7 +10,7 @@ This activity allows you to convert XML data to JSON object.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/activity/xml2json
+flogo install github.com/qingcloudhx/contrib/activity/xml2json
 ```
 
 ## Configuration
@@ -33,7 +33,7 @@ The below example logs a message 'test message':
   "id": "xml2json_activity",
   "name": "XML2JSON Activity",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/xml2json",
+    "ref": "github.com/qingcloudhx/contrib/activity/xml2json",
     "input": {
       "xmlData": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><hello>world</hello>"
     }

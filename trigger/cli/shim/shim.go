@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/project-flogo/contrib/trigger/cli"
+	"github.com/qingcloudhx/contrib/trigger/cli"
 )
 
 func main() {

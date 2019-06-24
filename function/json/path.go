@@ -2,8 +2,8 @@ package json
 
 import (
 	"github.com/oliveagle/jsonpath"
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/expression/function"
+	"github.com/qingcloudhx/core/data"
+	"github.com/qingcloudhx/core/data/expression/function"
 )
 
 func init() {

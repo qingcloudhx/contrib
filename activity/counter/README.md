@@ -10,7 +10,7 @@ This activity allows you to use a global counter.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/activity/counter
+flogo install github.com/qingcloudhx/contrib/activity/counter
 ```
 
 ## Configuration
@@ -36,7 +36,7 @@ The below example increments a 'messages' counter:
   "id": "increment_message_count",
   "name": "Increment Message Count",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/counter",
+    "ref": "github.com/qingcloudhx/contrib/activity/counter",
     "settings": {
       "counterName": "messages",
       "op": "increment"
@@ -53,7 +53,7 @@ The below example retrieves the last value of the 'messages' counter:
   "id": "get_message_count",
   "name": "Get Message Count",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/counter",
+    "ref": "github.com/qingcloudhx/contrib/activity/counter",
     "settings": {
       "counterName": "messages",
       "op": "get"
@@ -70,7 +70,7 @@ The below example resets the 'messages' counter:
   "id": "reset_message_count",
   "name": "Reset Message Count",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/counter",
+    "ref": "github.com/qingcloudhx/contrib/activity/counter",
     "settings": {
       "counterName": "messages",
       "op": "reset"

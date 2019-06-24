@@ -4,7 +4,7 @@
   "version": "0.9.0",
   "title": "Timer",
   "description": "Simple Timer trigger",
-  "homepage": "https://github.com/project-flogo/contrib/tree/master/trigger/timer",
+  "homepage": "https://github.com/qingcloudhx/contrib/tree/master/trigger/timer",
   "handler": {
     "settings": [
       {

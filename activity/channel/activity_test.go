@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/engine/channels"
-	"github.com/project-flogo/core/support/test"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/engine/channels"
+	"github.com/qingcloudhx/core/support/test"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/project-flogo/core/trigger"
+	"github.com/qingcloudhx/core/trigger"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -30,7 +30,7 @@ func getTestMetadata(t *testing.T) *trigger.Metadata {
 //
 const testConfig string = `{
   "id": "flogo-channel",
-  "ref": "github.com/project-flogo/contrib/trigger/channel",
+  "ref": "github.com/qingcloudhx/contrib/trigger/channel",
   "handlers": [
     {
       "settings": {

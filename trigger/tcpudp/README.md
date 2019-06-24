@@ -8,7 +8,7 @@ This trigger reads/writes data using TCI/UDP networks.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/trigger/tcpudp
+flogo install github.com/qingcloudhx/contrib/trigger/tcpudp
 ```
 
 ## Configuration
@@ -42,7 +42,7 @@ flogo install github.com/project-flogo/contrib/trigger/tcpudp
 {
   "triggers": [
           {
-              "ref": "github.com/project-flogo/contrib/trigger/tcpudp",
+              "ref": "github.com/qingcloudhx/contrib/trigger/tcpudp",
               "name": "ReceiveTCPData",
               "settings": {
                   "network": "tcp4",
@@ -56,7 +56,7 @@ flogo install github.com/project-flogo/contrib/trigger/tcpudp
                   {
                       "settings": {},
                       "action": {
-                          "ref": "github.com/project-flogo/flow",
+                          "ref": "github.com/qingcloudhx/flow",
                           "settings": {
                               "flowURI": "res://flow:TCP"
                           },

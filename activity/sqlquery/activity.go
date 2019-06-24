@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/project-flogo/contrib/activity/sqlquery/util"
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/support/log"
+	"github.com/qingcloudhx/contrib/activity/sqlquery/util"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/data/metadata"
+	"github.com/qingcloudhx/core/support/log"
 )
 
 func init() {

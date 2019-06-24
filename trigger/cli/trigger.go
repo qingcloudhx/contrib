@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/project-flogo/core/data/coerce"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/engine"
-	"github.com/project-flogo/core/support"
-	"github.com/project-flogo/core/support/log"
-	"github.com/project-flogo/core/trigger"
+	"github.com/qingcloudhx/core/data/coerce"
+	"github.com/qingcloudhx/core/data/metadata"
+	"github.com/qingcloudhx/core/engine"
+	"github.com/qingcloudhx/core/support"
+	"github.com/qingcloudhx/core/support/log"
+	"github.com/qingcloudhx/core/trigger"
 )
 
 var triggerMd = trigger.NewMetadata(&HandlerSettings{}, &Output{}, &Reply{})

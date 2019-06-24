@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/engine/channels"
-	"github.com/project-flogo/core/support/log"
-	"github.com/project-flogo/core/trigger"
+	"github.com/qingcloudhx/core/data/metadata"
+	"github.com/qingcloudhx/core/engine/channels"
+	"github.com/qingcloudhx/core/support/log"
+	"github.com/qingcloudhx/core/trigger"
 )
 
 var triggerMd = trigger.NewMetadata(&HandlerSettings{}, &Output{})

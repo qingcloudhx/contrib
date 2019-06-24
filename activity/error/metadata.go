@@ -1,7 +1,7 @@
 package error
 
 import (
-	"github.com/project-flogo/core/data/coerce"
+	"github.com/qingcloudhx/core/data/coerce"
 )
 
 type Input struct {

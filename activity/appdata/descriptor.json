@@ -4,7 +4,7 @@
   "version": "0.9.0",
   "title": "Use global App attribute",
   "description": "Use global App attribute",
-  "homepage": "https://github.com/project-flogo/contrib/tree/master/activity/appdata",
+  "homepage": "https://github.com/qingcloudhx/contrib/tree/master/activity/appdata",
   "settings":[
     {
       "name": "name",

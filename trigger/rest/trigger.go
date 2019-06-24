@@ -13,10 +13,10 @@ import (
 	"strings"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/project-flogo/contrib/trigger/rest/cors"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/support/log"
-	"github.com/project-flogo/core/trigger"
+	"github.com/qingcloudhx/contrib/trigger/rest/cors"
+	"github.com/qingcloudhx/core/data/metadata"
+	"github.com/qingcloudhx/core/support/log"
+	"github.com/qingcloudhx/core/trigger"
 )
 
 const (

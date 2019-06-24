@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/project-flogo/core/activity"
-	"github.com/project-flogo/core/data"
-	"github.com/project-flogo/core/data/mapper"
-	"github.com/project-flogo/core/data/metadata"
-	"github.com/project-flogo/core/data/resolve"
-	"github.com/project-flogo/core/support/test"
+	"github.com/qingcloudhx/core/activity"
+	"github.com/qingcloudhx/core/data"
+	"github.com/qingcloudhx/core/data/mapper"
+	"github.com/qingcloudhx/core/data/metadata"
+	"github.com/qingcloudhx/core/data/resolve"
+	"github.com/qingcloudhx/core/support/test"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -70,7 +70,7 @@ func newActionContext() *test.TestActivityHost {
 
 	ac := &test.TestActivityHost{
 		HostId:     "1",
-		HostRef:    "github.com/project-flogo/flow",
+		HostRef:    "github.com/qingcloudhx/flow",
 		IoMetadata: &metadata.IOMetadata{Input: input, Output: output},
 		HostData:   data.NewSimpleScope(nil, nil),
 	}

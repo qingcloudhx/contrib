@@ -5,9 +5,9 @@
   "type": "flogo:app",
   "appModel": "1.1.0",
   "imports": [
-    "github.com/project-flogo/contrib/trigger/cli",
-    "github.com/project-flogo/flow",
-    "github.com/project-flogo/contrib/activity/log"
+    "github.com/qingcloudhx/contrib/trigger/cli",
+    "github.com/qingcloudhx/flow",
+    "github.com/qingcloudhx/contrib/activity/log"
   ],
   "triggers": [
     {

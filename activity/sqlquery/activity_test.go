@@ -3,7 +3,7 @@ package sqlquery
 import (
 	"testing"
 
-	"github.com/project-flogo/core/activity"
+	"github.com/qingcloudhx/core/activity"
 	"github.com/stretchr/testify/assert"
 )
 

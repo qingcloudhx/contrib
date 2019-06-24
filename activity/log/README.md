@@ -10,7 +10,7 @@ This activity allows you to write log messages.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/activity/log
+flogo install github.com/qingcloudhx/contrib/activity/log
 ```
 
 ## Configuration
@@ -29,7 +29,7 @@ The below example logs a message 'test message':
   "id": "log_message",
   "name": "Log Message",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/log",
+    "ref": "github.com/qingcloudhx/contrib/activity/log",
     "input": {
       "message": "test message",
       "addDetails": "false"

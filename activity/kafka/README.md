@@ -9,7 +9,7 @@ This activity publishes messages on a topic in a Kafka cluster.
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/activity/kafka
+flogo install github.com/qingcloudhx/contrib/activity/kafka
 ```
 
 ## Configuration
@@ -45,7 +45,7 @@ The below example sends `Hello From Flogo` to a Kafka Broker running on localhos
   "id": "publish_kafka_message",
   "name": "Publish Message to Kafka",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/kafka",
+    "ref": "github.com/qingcloudhx/contrib/activity/kafka",
     "settings": {
       "brokerUrls" : "localhost:9092",
       "topic"      : "syslog"

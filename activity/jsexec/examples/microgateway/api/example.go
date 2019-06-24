@@ -1,12 +1,12 @@
 package api
 
 import (
-	trigger "github.com/project-flogo/contrib/trigger/rest"
-	"github.com/project-flogo/core/api"
-	"github.com/project-flogo/core/engine"
-	"github.com/project-flogo/contrib/activity/jsexec"
-	"github.com/project-flogo/microgateway"
-	microapi "github.com/project-flogo/microgateway/api"
+	trigger "github.com/qingcloudhx/contrib/trigger/rest"
+	"github.com/qingcloudhx/core/api"
+	"github.com/qingcloudhx/core/engine"
+	"github.com/qingcloudhx/contrib/activity/jsexec"
+	"github.com/qingcloudhx/microgateway"
+	microapi "github.com/qingcloudhx/microgateway/api"
 )
 
 // Example returns an API example

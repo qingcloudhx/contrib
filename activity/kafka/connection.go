@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/Shopify/sarama"
-	"github.com/project-flogo/core/support/log"
+	"github.com/qingcloudhx/core/support/log"
 )
 
 // todo core should add support for shared connections and replace this

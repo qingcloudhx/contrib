@@ -1,7 +1,7 @@
 package noop
 
 import (
-	"github.com/project-flogo/core/activity"
+	"github.com/qingcloudhx/core/activity"
 )
 
 func init() {

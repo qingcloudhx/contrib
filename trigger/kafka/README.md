@@ -8,7 +8,7 @@ This trigger subscribes to a topic on Kafka cluster and listens for the messages
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/trigger/kafka
+flogo install github.com/qingcloudhx/contrib/trigger/kafka
 ```
 
 ## Configuration
@@ -44,7 +44,7 @@ flogo install github.com/project-flogo/contrib/trigger/kafka
   "triggers": [
     {
       "id": "flogo-kafka",
-      "ref": "github.com/project-flogo/contrib/trigger/kafka",
+      "ref": "github.com/qingcloudhx/contrib/trigger/kafka",
       "settings": {
         "brokerUrls" : "localhost:9092",
         "trustStore" : "" 
@@ -55,7 +55,7 @@ flogo install github.com/project-flogo/contrib/trigger/kafka
             "topic": "syslog",
           },
           "action": {
-            "ref": "github.com/project-flogo/flow",
+            "ref": "github.com/qingcloudhx/flow",
             "settings": {
               "flowURI": "res://flow:my_flow"
             }

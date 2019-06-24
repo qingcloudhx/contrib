@@ -10,7 +10,7 @@ This activity allows you to map values to the working attribute set of an action
 
 ### Flogo CLI
 ```bash
-flogo install github.com/project-flogo/contrib/activity/mapper
+flogo install github.com/qingcloudhx/contrib/activity/mapper
 ```
 
 ## Configuration
@@ -28,7 +28,7 @@ The below example allows you to configure the activity to map the output 'value'
   "id": "mapper",
   "name": "Mapper",
   "activity": {
-    "ref": "github.com/project-flogo/contrib/activity/mapper",
+    "ref": "github.com/qingcloudhx/contrib/activity/mapper",
     "input": {
       "mappings": 
         {

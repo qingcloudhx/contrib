@@ -4,7 +4,7 @@
   "version": "0.9.0",
   "title": "JSExec Activity",
   "description": "Executes JS",
-  "homepage": "https://github.com/project-flogo/contrib/tree/master/activity/jsexec",
+  "homepage": "https://github.com/qingcloudhx/contrib/tree/master/activity/jsexec",
   "settings":[
     {
       "name": "script",
