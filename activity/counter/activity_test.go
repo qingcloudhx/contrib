@@ -3,10 +3,10 @@ package counter
 import (
 	"testing"
 
-	"github.com/qingcloudhx/core/activity"
-	"github.com/qingcloudhx/core/data/mapper"
-	"github.com/qingcloudhx/core/data/resolve"
-	"github.com/qingcloudhx/core/support/test"
+	"flogo/core/activity"
+	"flogo/core/data/mapper"
+	"flogo/core/data/resolve"
+	"flogo/core/support/test"
 	"github.com/stretchr/testify/assert"
 )
 

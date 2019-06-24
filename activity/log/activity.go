@@ -3,8 +3,8 @@ package log
 import (
 	"fmt"
 
-	"github.com/qingcloudhx/core/activity"
-	"github.com/qingcloudhx/core/data/coerce"
+	"flogo/core/activity"
+	"flogo/core/data/coerce"
 )
 
 func init() {
@@ -12,8 +12,8 @@ func init() {
 }
 
 type Input struct {
-	Message    string `md:"message"`     // The message to log
-	AddDetails bool   `md:"addDetails"`  // Append contextual execution information to the log message
+	Message    string `md:"message"`    // The message to log
+	AddDetails bool   `md:"addDetails"` // Append contextual execution information to the log message
 }
 
 func (i *Input) ToMap() map[string]interface{} {

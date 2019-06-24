@@ -1,6 +1,6 @@
 package cli
 
-import "github.com/qingcloudhx/core/data/coerce"
+import "flogo/core/data/coerce"
 
 const ovArgs = "args"
 const ovFlags = "flags"

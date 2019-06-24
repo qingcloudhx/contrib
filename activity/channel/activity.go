@@ -3,8 +3,8 @@ package channel
 import (
 	"fmt"
 
-	"github.com/qingcloudhx/core/activity"
-	"github.com/qingcloudhx/core/engine/channels"
+	"flogo/core/activity"
+	"flogo/core/engine/channels"
 )
 
 func init() {

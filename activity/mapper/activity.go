@@ -1,9 +1,9 @@
 package activity_mapper
 
 import (
-	"github.com/qingcloudhx/core/activity"
-	"github.com/qingcloudhx/core/data/mapper"
-	"github.com/qingcloudhx/core/data/metadata"
+	"flogo/core/activity"
+	"flogo/core/data/mapper"
+	"flogo/core/data/metadata"
 )
 
 func init() {

@@ -1,7 +1,7 @@
 package xml2json
 
 import (
-	"github.com/qingcloudhx/core/data/coerce"
+	"flogo/core/data/coerce"
 )
 
 type Input struct {

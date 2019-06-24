@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qingcloudhx/core/action"
-	"github.com/qingcloudhx/core/api"
-	"github.com/qingcloudhx/core/engine"
-	"github.com/qingcloudhx/core/support"
-	"github.com/qingcloudhx/core/support/test"
-	"github.com/qingcloudhx/core/trigger"
+	"flogo/core/action"
+	"flogo/core/api"
+	"flogo/core/engine"
+	"flogo/core/support"
+	"flogo/core/support/test"
+	"flogo/core/trigger"
 	"github.com/stretchr/testify/assert"
 )
 

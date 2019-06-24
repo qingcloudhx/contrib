@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/qingcloudhx/core/activity"
-	"github.com/qingcloudhx/core/data/metadata"
-	"github.com/qingcloudhx/core/support/ssl"
+	"flogo/core/activity"
+	"flogo/core/data/metadata"
+	"flogo/core/support/ssl"
 )
 
 func init() {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	"github.com/qingcloudhx/contrib/activity/sqlquery/util"
-	"github.com/qingcloudhx/core/activity"
-	"github.com/qingcloudhx/core/data/metadata"
-	"github.com/qingcloudhx/core/support/log"
+	"flogo/core/activity"
+	"flogo/core/data/metadata"
+	"flogo/core/support/log"
 )
 
 func init() {

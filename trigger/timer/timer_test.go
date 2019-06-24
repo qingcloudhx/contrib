@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/qingcloudhx/core/action"
-	"github.com/qingcloudhx/core/support/test"
-	"github.com/qingcloudhx/core/trigger"
+	"flogo/core/action"
+	"flogo/core/support/test"
+	"flogo/core/trigger"
 	"github.com/stretchr/testify/assert"
 )
 

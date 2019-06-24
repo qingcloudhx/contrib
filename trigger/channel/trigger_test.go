@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/qingcloudhx/core/trigger"
+	"flogo/core/trigger"
 	"github.com/stretchr/testify/assert"
 )
 

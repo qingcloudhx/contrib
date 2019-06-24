@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/qingcloudhx/core/support/log"
+	"flogo/core/support/log"
 )
 
 const (

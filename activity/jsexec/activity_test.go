@@ -3,11 +3,11 @@ package jsexec
 import (
 	"testing"
 
-	"github.com/qingcloudhx/core/activity"
-	"github.com/qingcloudhx/core/data"
-	"github.com/qingcloudhx/core/data/mapper"
-	"github.com/qingcloudhx/core/data/metadata"
-	logger "github.com/qingcloudhx/core/support/log"
+	"flogo/core/activity"
+	"flogo/core/data"
+	"flogo/core/data/mapper"
+	"flogo/core/data/metadata"
+	logger "flogo/core/support/log"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,9 +3,9 @@ package coerce
 import (
 	"fmt"
 
-	"github.com/qingcloudhx/core/data"
-	"github.com/qingcloudhx/core/data/coerce"
-	"github.com/qingcloudhx/core/data/expression/function"
+	"flogo/core/data"
+	"flogo/core/data/coerce"
+	"flogo/core/data/expression/function"
 )
 
 func init() {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/qingcloudhx/core/data/coerce"
+	"flogo/core/data/coerce"
 )
 
 type DbType int8

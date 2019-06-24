@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/qingcloudhx/core/support/log"
+	"flogo/core/support/log"
 	"github.com/stretchr/testify/assert"
 )
 

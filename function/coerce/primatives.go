@@ -1,8 +1,8 @@
 package coerce
 
 import (
-	"github.com/qingcloudhx/core/data/coerce"
-	"github.com/qingcloudhx/core/data/expression/function"
+	"flogo/core/data/coerce"
+	"flogo/core/data/expression/function"
 )
 
 func init() {

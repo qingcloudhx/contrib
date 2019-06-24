@@ -14,9 +14,9 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 	"github.com/qingcloudhx/contrib/trigger/rest/cors"
-	"github.com/qingcloudhx/core/data/metadata"
-	"github.com/qingcloudhx/core/support/log"
-	"github.com/qingcloudhx/core/trigger"
+	"flogo/core/data/metadata"
+	"flogo/core/support/log"
+	"flogo/core/trigger"
 )
 
 const (

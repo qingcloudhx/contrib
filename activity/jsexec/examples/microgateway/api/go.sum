@@ -42,10 +42,10 @@ github.com/qingcloudhx/contrib/trigger/channel v0.0.0-20190318145021-54b56025362
 github.com/qingcloudhx/contrib/trigger/rest v0.0.0-20190318145021-54b56025362c/go.mod h1:k0U1vznzbRJ4A4NLoYVl+UQDoxIl/ANqfbtRjSO7xP0=
 github.com/qingcloudhx/contrib/trigger/rest v0.0.0-20190322142340-97da16e70f7d h1:BQGS892sC6GAmOsu9zrn/HyTCYzSJeIvZ/W6GuzcvOY=
 github.com/qingcloudhx/contrib/trigger/rest v0.0.0-20190322142340-97da16e70f7d/go.mod h1:HGVa79rraAQaL7vewmfF61rAeqNzRSjpvgekTEHBtHU=
-github.com/qingcloudhx/core v0.9.0-alpha.6/go.mod h1:eB+hMcq51lOIeJ93K8Nvvm/vC3OI60ZaEgBbA4gtk8k=
-github.com/qingcloudhx/core v0.9.0-alpha.6.0.20190315150153-4c57a9c50a67/go.mod h1:eB+hMcq51lOIeJ93K8Nvvm/vC3OI60ZaEgBbA4gtk8k=
-github.com/qingcloudhx/core v0.9.0-beta.1 h1:ToDfk5H61p8j6uhPZzIeHQ8TBCj8M4DzUcna4+2KbO8=
-github.com/qingcloudhx/core v0.9.0-beta.1/go.mod h1:eB+hMcq51lOIeJ93K8Nvvm/vC3OI60ZaEgBbA4gtk8k=
+flogo/core v0.9.0-alpha.6/go.mod h1:eB+hMcq51lOIeJ93K8Nvvm/vC3OI60ZaEgBbA4gtk8k=
+flogo/core v0.9.0-alpha.6.0.20190315150153-4c57a9c50a67/go.mod h1:eB+hMcq51lOIeJ93K8Nvvm/vC3OI60ZaEgBbA4gtk8k=
+flogo/core v0.9.0-beta.1 h1:ToDfk5H61p8j6uhPZzIeHQ8TBCj8M4DzUcna4+2KbO8=
+flogo/core v0.9.0-beta.1/go.mod h1:eB+hMcq51lOIeJ93K8Nvvm/vC3OI60ZaEgBbA4gtk8k=
 github.com/qingcloudhx/microgateway v0.0.0-20190319203104-747b5cae041f h1:2HJ7qCJmrNvCZ56mdY/7dWCroHbnervMi9QSwnkF7Bc=
 github.com/qingcloudhx/microgateway v0.0.0-20190319203104-747b5cae041f/go.mod h1:3hJTjH3ri5CAaa1orStplPYQ1RxM2brIziLM16XHgyo=
 github.com/square-it/jsonschema v1.9.1/go.mod h1:80WJHSuy3YnokzfFopfx+MAt5lVVnVpS6w2Avv+svHk=

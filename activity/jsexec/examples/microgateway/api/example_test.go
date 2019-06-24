@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/qingcloudhx/core/engine"
+	"flogo/core/engine"
 	"github.com/qingcloudhx/microgateway/api"
 	"github.com/stretchr/testify/assert"
 )

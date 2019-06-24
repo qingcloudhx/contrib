@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/Shopify/sarama"
-	"github.com/qingcloudhx/core/activity"
-	"github.com/qingcloudhx/core/data/metadata"
+	"flogo/core/activity"
+	"flogo/core/data/metadata"
 )
 
 func init() {

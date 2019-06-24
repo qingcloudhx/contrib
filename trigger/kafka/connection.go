@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/Shopify/sarama"
-	"github.com/qingcloudhx/core/support/log"
+	"flogo/core/support/log"
 )
 
 type KafkaConnection struct {

@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/carlescere/scheduler"
-	"github.com/qingcloudhx/core/data/metadata"
-	"github.com/qingcloudhx/core/support/log"
-	"github.com/qingcloudhx/core/trigger"
+	"flogo/core/data/metadata"
+	"flogo/core/support/log"
+	"flogo/core/trigger"
 )
 
 type HandlerSettings struct {

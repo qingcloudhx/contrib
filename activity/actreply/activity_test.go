@@ -4,12 +4,12 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/qingcloudhx/core/activity"
-	"github.com/qingcloudhx/core/data"
-	"github.com/qingcloudhx/core/data/mapper"
-	"github.com/qingcloudhx/core/data/metadata"
-	"github.com/qingcloudhx/core/data/resolve"
-	"github.com/qingcloudhx/core/support/test"
+	"flogo/core/activity"
+	"flogo/core/data"
+	"flogo/core/data/mapper"
+	"flogo/core/data/metadata"
+	"flogo/core/data/resolve"
+	"flogo/core/support/test"
 	"github.com/stretchr/testify/assert"
 )
 

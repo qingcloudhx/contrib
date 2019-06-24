@@ -1,6 +1,6 @@
 package sqlquery
 
-import "github.com/qingcloudhx/core/data/coerce"
+import "flogo/core/data/coerce"
 
 type Settings struct {
 	DbType          string `md:"dbType,allowed(mysql,oracle,postres,sqlite,sqlserver), required"`

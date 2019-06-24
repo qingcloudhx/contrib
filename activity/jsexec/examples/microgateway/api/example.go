@@ -2,8 +2,8 @@ package api
 
 import (
 	trigger "github.com/qingcloudhx/contrib/trigger/rest"
-	"github.com/qingcloudhx/core/api"
-	"github.com/qingcloudhx/core/engine"
+	"flogo/core/api"
+	"flogo/core/engine"
 	"github.com/qingcloudhx/contrib/activity/jsexec"
 	"github.com/qingcloudhx/microgateway"
 	microapi "github.com/qingcloudhx/microgateway/api"

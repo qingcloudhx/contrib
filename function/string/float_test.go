@@ -3,7 +3,7 @@ package string
 import (
 	"testing"
 
-	"github.com/qingcloudhx/core/data/expression/function"
+	"flogo/core/data/expression/function"
 	"github.com/stretchr/testify/assert"
 )
 

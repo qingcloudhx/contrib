@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	xj "github.com/basgys/goxml2json"
-	"github.com/qingcloudhx/core/activity"
+	"flogo/core/activity"
 )
 
 // Activity is an activity that converts XML data into JSON object.

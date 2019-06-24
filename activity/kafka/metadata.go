@@ -1,7 +1,7 @@
 package kafka
 
 import (
-	"github.com/qingcloudhx/core/data/coerce"
+	"flogo/core/data/coerce"
 )
 
 type Settings struct {

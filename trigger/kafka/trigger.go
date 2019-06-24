@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	"github.com/qingcloudhx/core/data/metadata"
-	"github.com/qingcloudhx/core/support/log"
-	"github.com/qingcloudhx/core/trigger"
+	"flogo/core/data/metadata"
+	"flogo/core/support/log"
+	"flogo/core/trigger"
 )
 
 var triggerMd = trigger.NewMetadata(&Settings{}, &HandlerSettings{}, &Output{})

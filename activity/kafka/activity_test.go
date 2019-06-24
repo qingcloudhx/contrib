@@ -3,8 +3,8 @@ package kafka
 import (
 	"testing"
 
-	"github.com/qingcloudhx/core/activity"
-	"github.com/qingcloudhx/core/support/test"
+	"flogo/core/activity"
+	"flogo/core/support/test"
 	"github.com/stretchr/testify/assert"
 )
 
