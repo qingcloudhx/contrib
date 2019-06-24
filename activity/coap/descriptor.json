@@ -1,0 +1,61 @@
+{
+    "name": "flogo-coap",
+    "type": "flogo:activity",
+    "version": "0.1.0",
+    "title": "Send CoAP Message",
+    "description": "Simple CoAP Activity",
+    "homepage": "https://flogo/contrib/tree/master/activity/coap",
+    "settings":[
+      {
+        "name": "uri",
+        "type": "string",
+        "required": true,
+        "description": "The CoAP resource URI"
+      },
+      {
+        "name": "method",
+        "type": "string",
+        "required": true,
+        "allowed" : ["GET", "POST", "PUT", "DELETE"],
+        "description": "The CoAP method to use"
+      },
+      {
+        "name": "messageType",
+        "type": "string",
+        "value": "Confirmable",
+        "allowed" : ["Confirmable", "NonConfirmable", "Acknowledgement", "Reset"],
+        "description": "The message type"
+      },
+      {
+        "name": "options",
+        "type": "params",
+        "description": "The CoAP options to set"
+      }
+      
+    ],
+    "input" :[
+      {
+        "name": "queryParams",
+        "type": "params",
+        "description": "The query params of the CoAP Message"
+      },
+      {
+        "name": "payload",
+        "type": "string",
+        "description": "The payload of the CoAP Message"
+      },
+      {
+        "name": "messageId",
+        "type": "int",
+        "description": "ID used to detect duplicates and for optional reliability"
+      }
+    ],
+    "output": [
+      {
+        "name": "response",
+        "type": "string",
+        "description": "The response"
+      }
+    ]
+  }
+  
